@@ -1,0 +1,69 @@
+.login-container{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+label{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.form{
+    background-color: rgb(206, 229, 250);
+    border: 3px solid plum;
+    border-radius: 10px;
+    width: 40vw;
+    height: 88vh;
+    box-shadow: 0 5px 10px 0;
+}
+
+.fields{
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    
+    
+    
+}
+.login-container .fields{
+    margin-top: 30px;
+}
+
+.fields input{
+    width: 20vw;
+    height: 5vh;
+    border-radius: 5px;
+}
+
+.fields button{
+    width: 10vw;
+    height: 4vh;
+    background-color: rgb(25, 95, 226);
+    font-size: large;
+    font-weight: 500;
+}
+
+.fields button:hover{
+    background-color: rgb(121, 253, 95);
+    border: 2ps solid black;
+}
+
+.field{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 9%;
+
+}
+
+.gender{
+    /* margin-right: 15px; */
+    width: 15%;
+}
+.gender input{
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}

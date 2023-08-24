@@ -1,0 +1,46 @@
+.header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0 40px;
+    position: relative;
+    bottom: 10px;
+    border: 1px solid grey;
+    box-shadow: 5px 0px 5px 0;
+    height: 100px;
+    background-color: #1a242f;
+    color: white;
+}
+.header h2{
+    position: relative;
+    
+    color: #79b8f3;
+}
+.header input{
+    width: 50vw;
+    height: 50px;
+    border-radius: 10px;
+    font-size: large;
+    background-color: #1a242f;
+    color: white;
+    box-shadow: 0 0 5px 0;
+}
+
+.header input:hover{
+    border: 1px solid #79b8f3 ;
+}
+
+.header a{
+    text-decoration: none;
+    position: relative;
+    right: 10px;
+    font-size: larger;
+    color: #79b8f3;
+}
+.header a:hover{
+    color: white;
+}
+.sign{
+    position: relative;
+    right: 200px;
+}

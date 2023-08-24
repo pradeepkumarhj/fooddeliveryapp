@@ -1,0 +1,104 @@
+.Pizza{
+    display: flex;
+    flex-direction:row;
+    gap: 10px;
+    justify-content: space-between;
+    margin-top: 5%;
+    height: 30%;
+    
+    
+}
+.card{
+    margin-top: 5%;
+    box-shadow: 0 2px 5px 0 #79b8f3;
+}
+
+.card:hover{
+    box-shadow: 0 3px 5px 0 orange;
+
+}
+.card img{
+    height: 18rem;
+    margin-top: 1%;
+}
+.card-body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    bottom: 40px;
+}
+.card-body h3{
+    position: relative;
+    bottom: 10px;
+    opacity: 0.8;
+}
+.card-body p{
+    background-color: green;
+    color: white;
+    width: 40px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    
+}
+.card h4{
+    color: white;
+    position: relative;
+    bottom: 40px;
+    background-color: #51a1ec;
+    width: 210px;
+}
+
+.Pizza .card-desc{
+    position: relative;
+    
+    
+}
+
+.details{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 40px;
+    font-size: larger;
+    
+}
+.details .price{
+    display: flex;
+}
+
+.card .buttons{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.card .buttons .add-to-cart button{
+    background-color: rgb(255, 255, 63);
+    width: 20vw;
+    height: 6vh;
+    margin-bottom: 13px;
+    border-radius: 19px;
+    font-size: larger;
+    border: 2px solid rgb(235, 235, 57);
+}
+
+.card .buttons .add-to-cart button:hover{
+    background-color: rgb(109, 241, 109);
+}
+.card .buttons .buy-now button:hover{
+    background-color:#51a1ec;
+    color: white;
+}
+
+.card .buttons .buy-now button{
+    background-color: rgb(255, 115, 63);
+    width: 20vw;
+    height: 6vh;
+    margin-bottom: 13px;
+    border-radius: 19px;
+    font-size: larger;
+    border: 2px solid rgb(255, 115, 63);
+}
